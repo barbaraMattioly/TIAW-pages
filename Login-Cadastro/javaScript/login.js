@@ -36,7 +36,7 @@ function efetuarLogin(){
     })
 
     if(emailText.value == validarUsuario.email && senhaText.value == validarUsuario.senha){
-        window.location.href = '../../../Pagina-Inicial/pagina-inicial.html';
+        window.location.href = '../../../TIAW-pages/Pagina-Inicial/pagina-inicial.html';
         let token = Math.random().toString(16).substring(2);
         localStorage.setItem('token', token);
     }
