@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,6 +26,7 @@
   <script src="javaScript/formulario.js"></script>
   <title>Formulario</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <a class="navbar-brand" href="../../../TIAW-pages/Pagina-Inicial/pagina-inicial.html">SIP: Building Security</a>
@@ -56,9 +58,9 @@
             Empresa</a>
         </li>
         <li id="btnLogOut">
-          <button type="button" id="btnLogOut" onclick="efetuarLogOut()">
-            <i class="fa fa-sign-out fa_custom fa-2x"></i>
-          </button>
+          <div type="button" id="btnLogOut" onclick="efetuarLogOut()">
+            <i class="fa fa-sign-out fa_custom fa-2x" style="color:white"></i>
+          </div>
         </li>
       </ul>
     </div>
@@ -89,7 +91,7 @@
             <img width="25" heigt="25" src="./css/img/estrela0.png" id="s4"></a>
           <a href="javascript:void(0)" onclick="Avaliar(5)">
             <img width="25" heigt="25" src="./css/img/estrela0.png" id="s5"></a>
-          <p id="rating">  </p>
+          <p id="rating"> </p>
         </div>
         <div class="mb-3">
           <label for="Justificativa" class="form-label">Justificativa da Avaliação do Atendimento</label>
@@ -112,4 +114,5 @@
   </main>
   <script src="../../TIAW-pages/Pagina-Inicial/javaScript/logOut.js"></script>
 </body>
+
 </html>

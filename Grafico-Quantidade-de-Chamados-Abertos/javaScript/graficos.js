@@ -192,8 +192,8 @@ const dataGraficoQtdChamadosCategoria = {
   labels: labelsGraficoQtdChamadosCategoria,
   datasets: [{
     label: 'Quantidade de Chamados Abertos',
-    backgroundColor: 'rgb(107, 110, 172)',
-    borderColor: 'rgb(107, 110, 172)',
+    backgroundColor: 'rgb(31, 36, 56)',
+    borderColor: 'rgb(31, 36, 56)',
     data: [qtdChamadosHidraulica, qtdChamadosEletronica, qtdChamadosEletrica, qtdChamadosOutros],
   }]
 };

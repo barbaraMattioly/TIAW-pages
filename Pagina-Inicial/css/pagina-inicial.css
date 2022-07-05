@@ -153,3 +153,7 @@ body {
     margin-top: 40px;
   }
 }
+
+.fa fa-sign-out fa_custom fa-2x{
+  color: red;
+}
