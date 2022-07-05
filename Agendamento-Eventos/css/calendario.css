@@ -8,13 +8,19 @@
 .container{ /*conteudo da pagina toda*/
     width:100%;
     display:flex;
+}
+.nav{
+    margin-left: 176px;
+}
+.pagina-principal{
+    display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .calendario{
     width: 65%;
-    margin-left: 345px;
     background-color: #dadada;
-    box-shadow:0.5rem 3rem rgba(0,0,0,0,4);
+    margin-left: 180px;
 }
 .mês{
     width: 100%;
@@ -82,9 +88,8 @@
     background-color: #707081;
 }
 #caixaBotao{
-    width:7%;
+    width:135px;
     margin: 16px;
-    margin-left: 195px;
     border-radius: 10px; 
     background-color: #23232e;
     color: white;
@@ -135,19 +140,15 @@
     font-size: 15px;
     width: 135px;
 }
-
 .bg-dark{
     background-color: #23232e !important;
   }
-  
   .navbar-light .navbar-brand{
     color: white;
   }
-  
   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
     color: white;
   }
-  
   .navbar-light .navbar-nav .nav-link{
     color: white;
   }

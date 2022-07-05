@@ -72,7 +72,7 @@ var avaliacao = "";
 function Avaliar(estrela) {
     var url = window.location;
     url = url.toString()
-    url = url.split("index.html");
+    url = url.split("cadastrochamado.html");
     url = url[0];
 
     var s1 = document.getElementById("s1").src;
