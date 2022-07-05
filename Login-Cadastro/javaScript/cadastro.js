@@ -133,7 +133,7 @@ function cadastrarUsuario(){
 
             localStorage.setItem('listaUsuarios', JSON.stringify(listaUsuarios));
 
-            window.location.href = '../../../codigo/index.html';
+            window.location.href = '../../../index.html';
 
     }else{
         alert("Todos os campos devem estar preenchidos para efetuar o cadastro");
