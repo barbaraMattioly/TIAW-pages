@@ -8,19 +8,12 @@
 .container{ /*conteudo da pagina toda*/
     width:100%;
     display:flex;
-}
-.nav{
-    margin-left: 176px;
-}
-.pagina-principal{
-    display: flex;
     flex-direction: column;
-    width: 100%;
 }
 .calendario{
-    width: 65%;
+    width: 85%;
     background-color: #dadada;
-    margin-left: 180px;
+    align-self: center;
 }
 .mês{
     width: 100%;
@@ -71,11 +64,13 @@
 }
 .dias div{
     font-size: 1.4rem;
+    height: 75px;
     margin: 0.3rem;
     display:flex;
     justify-content: center;
     align-items: center;
     transition: background-color 0.2s; /*tempo que o dia vai ficar selecionado com o cursor*/
+    word-break: break-all;
 }
 .dias div:hover:not(.hoje){
     background-color:  rgb(177, 186, 189);
