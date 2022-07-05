@@ -1,3 +1,22 @@
+.bg-dark {
+    background-color: #23232e !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
 label {
     font-weight: bolder;
 }
@@ -34,17 +53,17 @@ h1 {
     display: inline-block;
 }
 
-.container{
+.container {
     width: 70%;
 }
 
-@media screen and (max-width:1282px){
-    .container{
+@media screen and (max-width:1282px) {
+    .container {
         width: 50%;
     }
-    
-    .form-group row{
+
+    .form-group row {
         width: 80%;
-        
+
     }
 }
