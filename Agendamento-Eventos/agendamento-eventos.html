@@ -1,7 +1,6 @@
+
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +8,10 @@
     <link rel="stylesheet" href="css/calendario.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
-
 <body>
-
     <nav>
         <a href="../../../TIAW-pages/Pagina-Inicial/pagina-inicial.html" id="logozinha">SIP: Building Security</a>
         <input type="checkbox" id="menuToggle">
@@ -41,18 +40,15 @@
             </div>
         </ul>
     </nav>
-
     <div class="container">
-
-        <div id="caixaBotao" class="botaoBox">
-            <button onclick="estadoBotao()" class="menu"> + Criar</button>
+        <div id="caixaBotao" onclick="estadoBotao()"class="botaoBox">
+            <div class="menu"> + Criar</div>
             <div id="meuMenu" class="conteudo-menu">
                 <a onclick="novoEvento()" href="#">Evento</a>
                 <a onclick="novaReuniao()" href="#">Reunião</a>
                 <input type="text" class="form-control" id="inputDescricao" required placeholder="Título...">
             </div>
         </div>
-
         <div class="calendario">
             <div class="mês">
                 <i class="fas fa-angle-left anterior">
@@ -66,13 +62,13 @@
                 <!--Setinha para o proximo mes-->
             </div>
             <div class="diasDaSemana">
-                <div>Domingo</div>
-                <div>Segunda</div>
-                <div>Terça</div>
-                <div>Quarta</div>
-                <div>Quinta</div>
-                <div>Sexta</div>
-                <div>Sábado</div>
+                <div>D</div>
+                <div>S</div>
+                <div>T</div>
+                <div>Q</div>
+                <div>Q</div>
+                <div>S</div>
+                <div>S</div>
             </div>
             <div onclick="novaData(event)" class="dias"></div>
         </div>
@@ -80,5 +76,4 @@
     <script src="moment.js"></script>
     <script src="javaScript/calendario.js"></script>
 </body>
-
 </html>

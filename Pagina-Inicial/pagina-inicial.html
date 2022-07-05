@@ -12,18 +12,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/pagina-inicial.css" />
+  <link rel="stylesheet" href="css/menu.css" />
 </head>
 
 <body>
   
-    <nav>
-      <a class="menuTexto" href="../../../TIAW-pages/Pagina-Inicial/pagina-inicial.html" id="logozinha">SIP: Building Security</a>
+  <nav>
+    <a href="../../../TIAW-pages/Pagina-Inicial/pagina-inicial.html" id="logozinha">SIP: Building Security</a>
+
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle" class="menu-icon">
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-times-circle"></i>
+      </label>
       <ul class="nav-list">
-        <li><a class="menuTexto" href="../../../TIAW-pages/Cadastro-Chamados-Feedback-Usuario/cadastrochamado.html">Cadastro de Chamados</a></li>
-        <li><a class="menuTexto" href="../../../TIAW-pages/Agendamento-Eventos/agendamento-eventos.html">Agendamento de Eventos</a></li>
-        <li><a class="menuTexto" href="../../../TIAW-pages/Formulario-Avaliacao/formulario-avaliacao.html">Avaliação do Sistema</a></li>
-        <li><a class="menuTexto" href="../../../TIAW-pages/Grafico-Quantidade-de-Chamados-Abertos/graficos.html">Chamados em Aberto</a></li>
-        <li><a class="menuTexto" href="../../../TIAW-pages/Indicacao-de-Empresa/indicacao-de-empresa.html">Indicação de Empresa</a></li>
+        <li><a href="../../../TIAW-pages/Cadastro-Chamados-Feedback-Usuario/cadastrochamado.html">Cadastro de Chamados</a></li>
+        <li><a href="../../../TIAW-pages/Agendamento-Eventos/agendamento-eventos.html">Agendamento de Eventos</a></li>
+        <li><a href="../../../TIAW-pages/Formulario-Avaliacao/formulario-avaliacao.html">Avaliação do Sistema</a></li>
+        <li><a href="../../../TIAW-pages/Grafico-Quantidade-de-Chamados-Abertos/graficos.html">Chamados em Aberto</a></li>
+        <li><a href="../../../TIAW-pages/Indicacao-de-Empresa/indicacao-de-empresa.html">Indicação de Empresa</a></li>
         <div class="btnSignOut">
           <li id="btnLogOut">
             <button type="button" id="btnLogOut" onclick="efetuarLogOut()">
